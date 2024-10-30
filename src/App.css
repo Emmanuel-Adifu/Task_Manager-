@@ -42,20 +42,22 @@ body {
 
 /* Layout */
 .app {
-  min-height: 100vh;
-  padding: 3rem 32rem;
   display: flex;
-  align-self: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
 }
 
-.container {
-  background-color:var(--background-color);
-  padding: 1rem;
+.counter-container {
+  background-color: white;
+  padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 500px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 540px;
 }
 
 .app-header {
