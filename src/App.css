@@ -46,18 +46,18 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f0f2f5;
+  background-color: var(--surface-color);
   font-family: Arial, sans-serif;
 }
 
-.counter-container {
-  background-color: white;
+.container {
+  background-color: var(--background-color);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 100%;
-  max-width: 540px;
+  max-width: 600px;
 }
 
 .app-header {
